@@ -18,7 +18,7 @@ Wanneer er op de knop wordt gedrukt stuurt de Raspberry Pi een hoog signaal uit 
 Het Python script voor de Raspberry Pi heet switch.py. Zorg dat deze tijdens het opstarten op de achtergrond wordt uitgevoerd. Het script zal proberen een USB stick te mounten en vervolgens wachten op de input van de knop.
 
 #### Aansluiten
-Zie ook (http://www.raspberrypi-spy.co.uk/wp-content/uploads/2014/07/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png "Raspberry Pi GPIO pin scheme"). Je kunt in het script aangeven op welke pins de button en de Arduino aangesloten is. De knop kan je aansluiten met een pin op de ground, en een pin op willekeurige plek (voorkeur pin 12 (GPIO18)). De Arduino kan je ook aansluiten op een willekeurige pin. Je kunt vervolgens ook nog instellen hoe lang er opgenomen moet worden.
+Zie ook [Raspberry Pi GPIO pin scheme](http://www.raspberrypi-spy.co.uk/wp-content/uploads/2014/07/Raspberry-Pi-GPIO-Layout-Model-B-Plus.png "Raspberry Pi GPIO pin scheme"). Je kunt in het script aangeven op welke pins de button en de Arduino aangesloten is. De knop kan je aansluiten met een pin op de ground, en een pin op willekeurige plek (voorkeur pin 12 (GPIO18)). De Arduino kan je ook aansluiten op een willekeurige pin. Je kunt vervolgens ook nog instellen hoe lang er opgenomen moet worden.
 
 De camera kun je met de flatcable aansluiten op de Raspberry Pi. Als het goed is werkt deze vanzelf. Doet deze het niet? Check dan je Raspberry Pi settings (sudo raspi-config) om de camera aan te zetten.
 
